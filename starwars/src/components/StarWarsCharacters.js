@@ -1,9 +1,11 @@
 import React from "react";
 
-const StarWarsCharacters = () => {
+import "./StarWars.scss";
+
+const StarWarsCharacters = (props) => {
   return(
-    <div>
-      Hello
+    <div className="starWarsContainer">
+      <p>{props.character.name}</p>
     </div>
   )
 }

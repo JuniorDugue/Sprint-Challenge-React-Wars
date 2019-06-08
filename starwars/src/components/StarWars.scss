@@ -1,7 +1,9 @@
 $border: 1px solid red;
+$white: #fff;
 
-*{
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+.starWarsContainer{
+  p{
+    color: $white;
+    border: $border;
+  }
 }
