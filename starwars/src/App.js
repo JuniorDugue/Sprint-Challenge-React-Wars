@@ -31,12 +31,12 @@ class App extends Component {
   };
 
   render() {
-    console.log(this.state)
+    // console.log(this.state)
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
         {this.state.starwarsChars.map(characters => (
-        <StarWarsCharacters character={characters}/>
+        <div key={characters.name}><StarWarsCharacters character={characters}/></div>
         ))}
       </div>
     );

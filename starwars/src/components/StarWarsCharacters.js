@@ -6,17 +6,17 @@ const StarWarsCharacters = (props) => {
   return(
     <div className="starWarsContainer">
       <h3>{props.character.name}</h3>
-      <p>
+      <li>
         <strong>Species:</strong>{props.character.species}
-      </p>
-      <p>
+      </li>
+      <li>
         <strong>Gender:</strong>
         {props.character.gender}
-      </p>
-      <p>
+      </li>
+      <li>
         <strong>Height:</strong>
         {props.character.height}
-      </p>
+      </li>
     </div>
   )
 }
